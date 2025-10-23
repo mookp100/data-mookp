@@ -1,0 +1,37 @@
+
+:root {
+  --primary-color: rgb(194, 226, 250);
+  --secondary-color: rgb(124, 121, 121);
+  --background-color: rgb(255, 241, 203);
+  --surface-color: rgb(183, 163, 227git commit -m "ส่งงาน");
+  --text-color: #212529;
+  --border-color: #dfe2e6;
+}
+body {
+  background-color: var(--background-color);
+  font-family: "Krub", sans-serif;
+  color: var(--text-color);
+}
+
+.page-header {
+    background-color: rgb(255, 143, 143);
+    padding: 20px;
+  
+}
+
+#page-title {
+  color: var(--primary-color);
+  /* สีน้ําเงินเข็ม */
+  font-size: 24px;
+}
+
+.card {
+  background-color: var(--surface-color);
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  margin: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
