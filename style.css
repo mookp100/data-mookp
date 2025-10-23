@@ -3,7 +3,7 @@
   --primary-color: rgb(194, 226, 250);
   --secondary-color: rgb(124, 121, 121);
   --background-color: rgb(255, 241, 203);
-  --surface-color: rgb(183, 163, 227git commit -m "ส่งงาน");
+  --surface-color: rgb(183, 163, 227);
   --text-color: #212529;
   --border-color: #dfe2e6;
 }
@@ -33,5 +33,5 @@ body {
 }
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
